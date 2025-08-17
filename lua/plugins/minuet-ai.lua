@@ -19,7 +19,7 @@ return {
                     api_key = 'TERM',
                     name = 'Ollama',
                     end_point = 'http://localhost:11434/v1/completions',
-                    model = 'qwen2.5-coder:7b',
+                    model = 'qwen2.5-coder:latest',
                     optional = {
                         max_tokens = 56,
                         top_p = 0.9,
@@ -30,9 +30,4 @@ return {
         end,
     },
     { 'nvim-lua/plenary.nvim' },
-    -- optional, if you are using virtual-text frontend, nvim-cmp is not
-    -- required.
-    { 'hrsh7th/nvim-cmp' },
-    -- optional, if you are using virtual-text frontend, blink is not required.
-    { 'Saghen/blink.cmp' },
 }

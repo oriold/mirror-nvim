@@ -9,4 +9,21 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
+
+  -- AI
+  { import = "astrocommunity.pack.ai" },
+  { import = "astrocommunity.completion.minuet-ai-nvim" },
+
+  -- Devel
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.fish" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.nginx" },
+  { import = "astrocommunity.pack.nix" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.yaml" },
 }
