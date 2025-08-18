@@ -2,6 +2,7 @@ if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- Minuet-AI autocompletion configuration
 
+---@type LazySpec
 return {
     "milanglacier/minuet-ai.nvim",
     opts = {
