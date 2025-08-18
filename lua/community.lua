@@ -25,9 +25,11 @@ return {
   { import = "astrocommunity.pack.yaml" },  
 
   -- Themes
-  { import = "astrocommunity.recipes.cache-colorscheme" },
+  { import = "astrocommunity.colorscheme.bamboo-nvim" },
   { import = "astrocommunity.colorscheme.citruszest-nvim" },
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.colorscheme.everblush-nvim" },
+  { import = "astrocommunity.colorscheme.fluoromachine-nvim" },
+  { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.colorscheme.poimandres-nvim" },
 }
