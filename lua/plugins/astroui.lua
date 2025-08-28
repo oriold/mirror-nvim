@@ -19,6 +19,10 @@ return {
         -- Normal = { bg = "#000000" },
       },
     },
+    -- Folding
+    folding = {
+      methods = { "lsp", "indent", "treesitter" },
+    },
     -- Icons can be configured throughout the interface
     icons = {
       -- configure the loading of the lsp in the status line
