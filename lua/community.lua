@@ -9,8 +9,8 @@ return {
   -- import/override with your plugins folder
 
   -- AI
-  -- { import = "astrocommunity.recipes.ai" },
-  -- { import = "astrocommunity.completion.minuet-ai-nvim" },
+  { import = "astrocommunity.recipes.ai" },
+  { import = "astrocommunity.completion.minuet-ai-nvim" },
 
   -- Devel
   { import = "astrocommunity.pack.bash" },
