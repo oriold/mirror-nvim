@@ -10,7 +10,6 @@ return {
 
   -- AI
   { import = "astrocommunity.recipes.ai" },
-  { import = "astrocommunity.completion.minuet-ai-nvim" },
 
   -- Devel
   { import = "astrocommunity.pack.bash" },
